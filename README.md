@@ -13,4 +13,4 @@ Choose the theme in Gnome-tweaks.
 
 ## Screenshots
 
-https://raw.github.com/5calV/CitrineSky-Gnome/main/screenshots/img1
+<img src= "screenshots/img1"/>
