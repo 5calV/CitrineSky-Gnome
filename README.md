@@ -14,3 +14,13 @@ Choose the theme in Gnome-tweaks.
 ## Screenshots
 
 <img src ="https://github.com/5calV/CitrineSky-Gnome/blob/main/screenshots/img1.png?raw=true"/>
+
+<img src ="https://github.com/5calV/CitrineSky-Gnome/blob/main/screenshots/img2.png?raw=true"/>
+
+<img src ="https://github.com/5calV/CitrineSky-Gnome/blob/main/screenshots/img3.png?raw=true"/>
+
+<img src ="https://github.com/5calV/CitrineSky-Gnome/blob/main/screenshots/img4.png?raw=true"/>
+
+<img src ="https://github.com/5calV/CitrineSky-Gnome/blob/main/screenshots/img5.png?raw=true"/>
+
+<img src ="https://github.com/5calV/CitrineSky-Gnome/blob/main/screenshots/img6.png?raw=true"/>
