@@ -1,0 +1,741 @@
+#panel {
+  background-color: transparent;
+  height: 27px;
+  font-size: 13px;
+}
+
+.panel-button,
+.panel-button:active,
+.panel-button:active .clock {
+  color: white;
+  border-radius: 33px;
+  border: 2px solid #E66100;
+  background-color: #181818;
+  box-shadow: inset -1px 1px 10px 0px transparent;
+}
+
+.panel-button:hover,
+.panel-button:hover .clock {
+  outline: none;
+  border: 2px solid #00c3ff;
+  background-color: #082e2d;
+  box-shadow: 0 0 4px #00c3ff;
+  transition-duration: 0ms;
+}
+
+.clock-display {
+  box-shadow: inset -1px 1px 10px 0px transparent !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup-menu {
+  min-width: 15em;
+  color: #E66100;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.popup-menu .popup-sub-menu {
+  background-color: #3B3B3B !important;
+  color: #babaab !important;
+  border: none;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+.popup-menu .popup-menu-content {
+  padding: 1em 1em 1em 1em;
+  background-color: #3b3b3b;
+  box-shadow: none;
+  border: 3px solid #E66100;
+  border-radius: 4px;
+}
+.popup-menu .popup-menu-item {
+  spacing: 5px;
+}
+.popup-menu .popup-menu-item:ltr {
+  padding: 0.3em 2em 0.3em 1em;
+}
+.popup-menu .popup-menu-item:rtl {
+  padding: 0.3em 1em 0.3em 2em;
+}
+.popup-menu .popup-menu-item:checked, .popup-menu .popup-menu-item:checked:hover, .popup-menu .popup-menu-item:checked:active {
+  font-weight: normal !important;
+  box-shadow: none;
+  background-color: #E66100 !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+}
+
+.popup-menu-item:focus, .popup-menu-item:hover {
+  transition-duration: 100ms;
+  color: black;
+  background-color: #00c3ff; 
+}
+
+.popup-menu .popup-menu-item:insensitive {
+  color: #00c3ff;
+  background: none;
+}
+.popup-menu .popup-inactive-menu-item {
+  color: #00c3ff;
+}
+.popup-menu .popup-inactive-menu-item:insensitive {
+  color: #00c3ff;
+}
+.popup-menu.panel-menu {
+  -boxpointer-gap: 0px;
+  margin-bottom: 1.75em;
+}
+
+.popup-menu-ornament {
+  width: 1.4em;
+  text-align: center !important;
+}
+.popup-menu-ornament:ltr {
+  text-align: right;
+}
+.popup-menu-ornament:rtl {
+  text-align: left;
+}
+
+.popup-menu-boxpointer {
+  -arrow-border-radius: 2px;
+  -arrow-background-color: rgba(0, 0, 0, 0);
+  -arrow-border-width: 1px;
+  -arrow-border-color: rgba(0, 0, 0, 0);
+  -arrow-base: 0;
+  -arrow-rise: 0;
+}
+
+.candidate-popup-boxpointer {
+  -arrow-border-radius: 2px;
+  -arrow-background-color: rgba(8, 17, 28, 0.95);
+  -arrow-border-width: 1px;
+  -arrow-border-color: rgba(0, 0, 0, 0.4);
+  -arrow-base: 5;
+  -arrow-rise: 5;
+}
+
+.popup-separator-menu-item {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
+.popup-separator-menu-item .popup-separator-menu-item-separator {
+  height: 1px;
+  margin: 0;
+  background-color: transparent;
+}
+.popup-sub-menu .popup-separator-menu-item .popup-separator-menu-item-separator {
+  margin: 0;
+  background-color: transparent;
+}
+
+.aggregate-menu {
+  min-width: 22em;
+}
+.aggregate-menu .popup-menu-icon {
+  padding: 0;
+  margin: 0 4px;
+  -st-icon-style: symbolic;
+}
+.aggregate-menu .popup-sub-menu .popup-menu-item > :first-child:ltr {
+  margin-left: 1em;
+}
+.aggregate-menu .popup-sub-menu .popup-menu-item > :first-child:rtl {
+  margin-right: 1em;
+}
+
+.background-menu {
+  -boxpointer-gap: 4px;
+  -arrow-rise: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider {
+  -barlevel-height: 4px;
+  -barlevel-background-color: rgba(255, 255, 255, 0.2);
+  -barlevel-border-width: 2px;
+  -barlevel-border-color: transparent;
+  -barlevel-active-background-color: #00c3ff;
+  -barlevel-active-border-color: transparent;
+  -barlevel-overdrive-color: #c01c28;
+  -barlevel-overdrive-border-color: transparent;
+  -barlevel-overdrive-separator-width: 1px;
+  -slider-handle-radius: 8px;
+  -slider-handle-border-width: 0;
+  -slider-handle-border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quick-settings {
+  padding: 18px;
+  border-radius: 36px;
+}
+.quick-settings .icon-button, .quick-settings .login-dialog-button.cancel-button, .quick-settings .login-dialog-button.switch-user-button, .quick-settings .login-dialog-button.login-dialog-session-list-button, .quick-settings .background-app-item .close-button, .background-app-item .quick-settings .close-button, .quick-settings .button {
+  padding: 10.5px;
+}
+
+.quick-settings-grid {
+  spacing-rows: 12px;
+  spacing-columns: 12px;
+}
+
+.quick-toggle, .quick-menu-toggle {
+  border-radius: 99px;
+  min-width: 12em;
+  max-width: 12em;
+  min-height: 48px;
+  border: none;
+}
+
+.quick-toggle {
+  /* Move padding into the box; this is to allow menu arrows
+     to extend to the border */
+}
+.quick-toggle:checked {
+  transition-duration: 100ms;
+  background-color: #E66100;
+  color: #ffffff;
+}
+.quick-toggle:checked:focus {
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.6) !important;
+}
+.quick-toggle:checked:hover, .quick-toggle:checked:focus {
+  background-color: #c25100;
+  color: white;
+}
+.quick-toggle:checked:active {
+  background-color: #c25100;
+  color: #ededed;
+}
+.quick-toggle:checked:insensitive {
+  transition-duration: 100ms;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #c25100;
+  color: rgba(255, 255, 255, 0.5);
+}
+.quick-toggle > StBoxLayout {
+  spacing: 9px;
+}
+.quick-toggle.button, .quick-toggle.icon-button, .quick-toggle.login-dialog-button.cancel-button, .quick-toggle.login-dialog-button.switch-user-button, .quick-toggle.login-dialog-button.login-dialog-session-list-button, .background-app-item .quick-toggle.close-button {
+  padding: 0;
+}
+.quick-toggle > StBoxLayout {
+  padding: 0 12px;
+}
+.quick-toggle:ltr > StBoxLayout {
+  padding-left: 15px;
+}
+.quick-toggle:rtl > StBoxLayout {
+  padding-right: 15px;
+}
+.quick-toggle .quick-toggle-title {
+  font-weight: bold;
+}
+.quick-toggle StBoxLayout > .quick-toggle-subtitle {
+  font-weight: normal;
+  font-size: 12px;
+}
+.quick-toggle .quick-toggle-icon {
+  icon-size: 1.09em;
+}
+
+.quick-menu-toggle .quick-toggle {
+  min-width: auto;
+  max-width: auto;
+}
+.quick-menu-toggle .quick-toggle:ltr {
+  border-radius: 99px 0 0 99px;
+}
+.quick-menu-toggle .quick-toggle:ltr > StBoxLayout {
+  padding-right: 9px;
+}
+.quick-menu-toggle .quick-toggle:rtl {
+  border-radius: 0 99px 99px 0;
+}
+.quick-menu-toggle .quick-toggle:rtr > StBoxLayout {
+  padding-left: 9px;
+}
+.quick-menu-toggle .quick-toggle:ltr:last-child {
+  border-radius: 99px;
+}
+.quick-menu-toggle .quick-toggle:rtl:last-child {
+  border-radius: 99px;
+}
+
+.quick-menu-toggle .quick-toggle-arrow {
+  padding: 6px 10.5px;
+  border-width: 0;
+}
+.quick-menu-toggle .quick-toggle-arrow:checked {
+  transition-duration: 100ms;
+  background-color: #E66100;
+  color: #ffffff;
+  border-color: #E66100;
+}
+.quick-menu-toggle .quick-toggle-arrow:checked:focus {
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.6) !important;
+}
+.quick-menu-toggle .quick-toggle-arrow:checked:hover, .quick-menu-toggle .quick-toggle-arrow:checked:focus {
+  background-color: #c25100;
+  color: white;
+}
+.quick-menu-toggle .quick-toggle-arrow:checked:active {
+  background-color: #E66100;
+  color: #ededed;
+}
+.quick-menu-toggle .quick-toggle-arrow:checked:insensitive {
+  transition-duration: 100ms;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #E66100;
+  color: rgba(255, 255, 255, 0.5);
+}
+.quick-menu-toggle .quick-toggle-arrow:ltr {
+  border-radius: 0 99px 99px 0;
+  border-left-width: 1px;
+}
+.quick-menu-toggle .quick-toggle-arrow:rtl {
+  border-radius: 99px 0 0 99px;
+  border-right-width: 1px;
+}
+
+.quick-slider > StBoxLayout {
+  spacing: 6px;
+}
+
+.quick-slider .icon-button, .quick-slider .login-dialog-button.cancel-button, .quick-slider .login-dialog-button.switch-user-button, .quick-slider .login-dialog-button.login-dialog-session-list-button, .quick-slider .background-app-item .close-button, .background-app-item .quick-slider .close-button {
+  padding: 6px;
+}
+
+.quick-toggle-menu {
+  border-radius: 12px;
+  margin: 4px;
+  transition-duration: 100ms;
+  color: white;
+  background-color: #383344;
+  background-color: #3B3B3B !important;
+  color: white !important;
+  border-radius: 24px;
+  padding: 12px;
+  margin: 12px 18px 0;
+}
+.quick-toggle-menu:hover {
+  transition-duration: 100ms;
+  color: white;
+  background-color: #3f3a4d;
+}
+.quick-toggle-menu:active {
+  transition-duration: 100ms;
+  color: white;
+  background-color: #464055;
+}
+.quick-toggle-menu:focus {
+  transition-duration: 100ms;
+  color: white;
+  background-color: #41344e;
+  box-shadow: inset 0 0 0 2px rgba(145, 65, 172, 0.6) !important;
+}
+.quick-toggle-menu:focus:hover {
+  background-color: #473a56;
+  box-shadow: inset 0 0 0 2px rgba(145, 65, 172, 0.7) !important;
+}
+.quick-toggle-menu:focus:active {
+  background-color: #4e405e;
+  box-shadow: inset 0 0 0 2px rgba(145, 65, 172, 0.7) !important;
+}
+.quick-toggle-menu:insensitive {
+  transition-duration: 100ms;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.quick-toggle-menu .popup-menu-item > StIcon {
+  -st-icon-style: symbolic;
+}
+.quick-toggle-menu .header {
+  spacing-rows: 3px;
+  spacing-columns: 12px;
+  padding-bottom: 12px;
+}
+.quick-toggle-menu .header .icon {
+  icon-size: 1.635em;
+  border-radius: 999px;
+  padding: 9px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.quick-toggle-menu .header .icon.active {
+  background-color: #9141ac;
+  color: #ffffff;
+}
+
+.quick-settings-system-item > StBoxLayout {
+  spacing: 12px;
+}
+
+.quick-settings-system-item .power-item {
+  min-height: 0;
+  min-width: 0;
+}
+.quick-settings-system-item .power-item:insensitive {
+  transition-duration: 100ms;
+  color: white;
+  background-color: #383344;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HIER SCHALTER MACHEN!!!! */
+
+.toggle-switch {
+  color: white;
+  height: 26px;
+  width: 48px;
+  background-size: contain;
+  background-image: url("switch/OFF.png"); }
+  .toggle-switch:checked {
+    background-image: url("switch/ON.png"); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+.datemenu-today-button {
+  color: #E66100;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 9px;
+}
+.datemenu-today-button label, .datemenu-today-button image {
+  color: inherit;
+}
+.datemenu-today-button .day-label {
+  font-weight: bold;
+}
+.datemenu-today-button .date-label {
+  font-weight: 1000;
+}
+.datemenu-today-button:hover, .datemenu-today-button:focus {
+  background-color: rgba(140, 106, 60, 0.2);
+}
+.datemenu-today-button:active, .datemenu-today-button:selected {
+  background-color: rgba(200, 114, 0, 0.1);
+}
+
+
+
+
+.calendar .calendar-day:selected {
+  color: #ffffff !important;
+  background-color: #00c3ff;
+  border-color: #E66100;
+  border-width: 2px;
+}
+
+
+.calendar .calendar-today:selected {
+  color: #ffffff !important;
+  background-color: #00c3ff;
+  border-color: #E66100;
+  border-width: 2px;
+}
+
+.calendar .calendar-today {
+  color: #ffffff !important;
+  background-color: #E66100;
+  border-color: #00c3ff;
+  border-width: 2px;
+  font-weight: bold !important;
+}
+
+
+
+
+
+
+.calendar .calendar-day-with-events {
+  color: #E66100;
+  background-color: transparent;
+  border-color: transparent;
+  background-image: url("calender/calendar-event.png");
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.workspace-thumbnail-indicator {
+  border: 3px solid #E66100;
+  border-radius: 8px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app-well-app.app-folder .overview-icon, .app-folder.grid-search-result .overview-icon, .grid-search-result .overview-icon, .dash-item-container .show-apps .overview-icon, .list-search-result, .search-provider-icon, .switcher-list .item-box {
+  border-radius: 16px;
+  padding: 6px;
+  spacing: 6px;
+  border: 2px solid;
+  border-color: #E66100;
+  transition-duration: 200ms;
+  text-align: center;
+  color: #E66100; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
